@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="XuePenghui&#39;s Blog">
 <meta property="og:description" content="本文是这篇关于迁移子空间学习英文文献的阅读笔记">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-27T10:39:36.000Z">
+<meta property="og:updated_time" content="2018-08-28T14:01:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Feature Selection Based Transfer Subspace">
 <meta name="twitter:description" content="本文是这篇关于迁移子空间学习英文文献的阅读笔记">
@@ -375,8 +375,8 @@
       
         <blockquote>
 <p>本文是这篇关于迁移子空间学习英文文献的阅读笔记<br><a id="more"></a></p>
-<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1></blockquote>
-<p>跨语料库的语音情感识别最近很受关注，通常包括两个基本问题—特征匹配和特征选择。作者提出了新颖的算法来处理这两个问题（之前的研究都是分别地研究两个问题或只研究其中一个问题）。为了解决第一个问题，通过减少不同语料库的差异和保留重要属性来学习潜在的公共子空间。同时，在投影矩阵上使用$l_{2,1}-norm$来解决第二个问题。为了保证子空间的鲁棒性和具有辨识力，探索了数据的几何信息。</p>
+</blockquote>
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>跨语料库的语音情感识别最近很受关注，通常包括两个基本问题—特征匹配和特征选择。作者提出了新颖的算法来处理这两个问题（之前的研究都是分别地研究两个问题或只研究其中一个问题）。为了解决第一个问题，通过减少不同语料库的差异和保留重要属性来学习潜在的公共子空间。同时，在投影矩阵上使用$l_{2,1}-norm$来解决第二个问题。为了保证子空间的鲁棒性和具有辨识力，探索了数据的几何信息。</p>
 <h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>GMM、NN、SVM、supervised dic-tionary learning, multi-task learning, sparse representation、DNN这些方法的效果某种程度上说还不错，但是是建立在训练集和测试集在同一个语料库中的。</p>
 <p>在语音识别中，模型的迁移性十分重要。研究者用cepstral mean normalization (CMN), maximum a pos-teriori (MAP), joint factor analysis (JFA), vocal tract length normalization (VTLN), maximum likelihood linear regres- sion (MLLR)等方法来促进模型的性能。同时，随着深度学习的发展，发现DNN可以从未经处理的数据学习到鲁棒的特点，有很多研究CNN，LSTM的成果。共同的策略是学习高层次的不变情绪特征。</p>
 <p>上述的方法都没有考虑到语料库偏差的影响，迁移学习最近被提出来解决这一问题。它是通过从源数据学习到的知识应用到目标数据来实现的。随后列举了一些算法，所有这些算法都着眼于寻找潜在的共同特征表示来处理特征匹配问题，而不考虑特征选择的重要性。</p>
@@ -619,7 +619,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -641,7 +641,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
